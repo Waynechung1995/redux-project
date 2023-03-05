@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className="container">
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/redux-project' element={<Home />} />
           <Route path='/movie/:imdbID' element={<MovieDetail />} />
           <Route path='/*' element={<PageNotFound />} />
         </Routes>
